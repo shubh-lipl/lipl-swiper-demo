@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~swiper/swiper-bundle";
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 80%;
+  height: 80vh;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+div[data-swiper-slide-index="0"] {
+  background-color: antiquewhite;
+}
+div[data-swiper-slide-index="1"] {
+  background-color: #a4ebf3;
+}
+div[data-swiper-slide-index="2"] {
+  background-color: #fbaccc;
+}
+div[data-swiper-slide-index="3"] {
+  background-color: #f2a154;
+}
+div[data-swiper-slide-index="4"] {
+  background-color: #350b40;
+}
+div[data-swiper-slide-index="5"] {
+  background-color: #75cfb8;
+}
